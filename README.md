@@ -11,7 +11,7 @@ The objective of this project is to develop and evaluate multiple machine learni
 - **Target Variable:** 'diagnosis' (M = Malignant, B = Benign).
 
 ## c. Models Used and Comparison Table
-The following 6 models were implemented and evaluated using the same dataset[cite: 33, 69]:
+The following 6 models were implemented and evaluated using the same dataset:
 
 | ML Model Name       |   Accuracy |    AUC |   Precision |   Recall |     F1 |    MCC |
 |:--------------------|-----------:|-------:|------------:|---------:|-------:|-------:|
