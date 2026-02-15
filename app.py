@@ -136,6 +136,24 @@ if uploaded_file is not None:
     st.dataframe(report_df)
 
     # ---------------------------
+    # ---------------------------
+    # Model Metric Visualization
+    # ---------------------------
+    st.subheader("Metric Visualization")
+    
+    metrics_dict = {
+        "Accuracy": accuracy,
+        "Precision": precision,
+        "Recall": recall,
+        "F1 Score": f1,
+        "MCC Score": mcc
+    }
+    
+    metrics_df = pd.DataFrame(metrics_dict.items(), columns=["Metric", "Score"])
+    
+    st.bar_chart(metrics_df.set_index("Metric"))
+
+    # ---------------------------
     # Observations (Bonus for Marks)
     # ---------------------------
     st.subheader("Model Observation")
