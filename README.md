@@ -5,7 +5,7 @@
 The objective of this project is to develop and evaluate multiple machine learning classification models to predict whether a breast mass is Malignant (M) or Benign (B). This is achieved using features derived from digitized images of fine needle aspirate (FNA) of breast masses.
 
 ## b. Dataset Description
-- **Dataset:** Wisconsin Diagnostic Breast Cancer (WDBC)[cite: 68].
+- **Dataset:** Wisconsin Diagnostic Breast Cancer (WDBC).
 - **Features:** 30 numeric attributes (radius, texture, perimeter, area, etc.).
 - **Instances:** 569 samples.
 - **Target Variable:** 'diagnosis' (M = Malignant, B = Benign).
